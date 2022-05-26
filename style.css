@@ -5,6 +5,7 @@
 body {
   background-color: #f4f4f4;
 }
+/* Header med 'logo' og portræt billede af Anne Qvist*/
 .header {
   width: 85%;
   height: 500px;
@@ -33,9 +34,10 @@ h2 {
   margin-right: auto;
   display: block;
 }
+/*Max Mara beskrivelse med billeder og tekst*/
 .maxmara {
   width: 100%;
-  height: 2650px;
+  height: 2600px;
   margin-top: 35px;
   display: block;
   background-color: #b7a38f;
@@ -76,4 +78,85 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+/*Hvem er Anne & Louise Qvist med billeder og tekst*/
+.anneqvist {
+  width: 100%;
+  height: 1950px;
+  margin-top: 35px;
+  display: block;
+  background-color: #f4f4f4;
+}
+.butiksfacade {
+  width: 85%;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  width: 85%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.portrætfarmoroglouise {
+  width: 85%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*Nyhedsbrev, hvor man kan skrive sig op og modtage tilbud - Kilde; https://www.youtube.com/watch?v=u8jfMY8GcGI*/
+.nyhedsbrev {
+  width: 100%;
+  height: 310px;
+  margin-top: 35px;
+  display: block;
+  background-color: #b7a38f;
+}
+.nyhedsbrevtekst1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: #f4f4f4;
+  width: 85%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.nyhedsbrevtekst2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 85%;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.box {
+  width: 60%;
+
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.box input {
+  width: 200px;
+  padding: 8px;
+  border-style: none;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.box button {
+  width: 217px;
+  padding: 8px;
+  border-style: none;
+  background-color: #745549;
+  color: white;
 }
