@@ -160,3 +160,80 @@ h3 {
   background-color: #745549;
   color: white;
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  margin-top: 35px;
+  background-color: #f4f4f4;
+}
+.butikken {
+  width: 50%;
+}
+.butikken h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  width: 85%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.butikken p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  width: 85%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.åbningstider {
+  width: 50%;
+}
+.åbningstider h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  width: 85%;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.åbningstider p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  width: 85%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 35px;
+  background-color: #f4f4f4;
+}
+
+.face {
+  width: 50%;
+  margin-left: 25%;
+}
+.insta {
+  width: 50%;
+  margin-right: 25%;
+}
+
+.media {
+  font-size: 80px;
+  color: gray;
+  transition: color 0.2s;
+  text-align: center;
+}
+.media :hover {
+  color: black;
+}
