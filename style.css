@@ -16,15 +16,16 @@ body {
   background-color: #b9b7b3;
 }
 h1 {
-  text-align: center;
   font-size: 40px;
   font-family: "Abhaya Libre", serif;
-  padding-top: 55px;
 }
 h2 {
-  text-align: center;
   font-size: 15px;
   font-family: "Abhaya Libre", serif;
+}
+.logo {
+  text-align: center;
+  padding-top: 55px;
 }
 .portrætfarmor {
   width: 250px;
@@ -34,7 +35,9 @@ h2 {
   margin-right: auto;
   display: block;
 }
+
 /*Max Mara beskrivelse med billeder og tekst*/
+
 .maxmara {
   width: 100%;
   height: 2600px;
@@ -80,6 +83,7 @@ p {
   display: block;
 }
 /*Hvem er Anne & Louise Qvist med billeder og tekst*/
+
 .anneqvist {
   width: 100%;
   height: 1950px;
@@ -111,6 +115,7 @@ h3 {
   display: block;
 }
 /*Nyhedsbrev, hvor man kan skrive sig op og modtage tilbud - Kilde; https://www.youtube.com/watch?v=u8jfMY8GcGI*/
+
 .nyhedsbrev {
   width: 100%;
   height: 310px;
@@ -160,6 +165,7 @@ h3 {
   background-color: #745549;
   color: white;
 }
+/*Footer med info*/
 
 .footer {
   display: flex;
@@ -210,6 +216,8 @@ h3 {
   margin-right: auto;
   display: block;
 }
+/*sociale medielinks - kilde; https://www.youtube.com/watch?v=Hskt1jN7JTc*/
+
 .social {
   display: flex;
   justify-content: center;
@@ -236,4 +244,193 @@ h3 {
 }
 .media :hover {
   color: black;
+}
+/*Mobilversion slutter her*/
+
+/*Tabletversion starter her*/
+
+@media only screen and (min-width: 600px) {
+  body {
+  }
+  .maxmara {
+    height: 3000px;
+  }
+  .anneqvist {
+    height: 1700px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  body {
+  }
+  .maxmara {
+    height: 3500px;
+  }
+  .anneqvist {
+    height: 1700px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+  }
+  .header {
+    width: 95%;
+    height: 610px;
+  }
+  .logo {
+    padding-top: 95px;
+    height: 200px;
+    width: 800px;
+  }
+  h1 {
+    font-size: 100px;
+    font-family: "Abhaya Libre", serif;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: "Abhaya Libre", serif;
+  }
+  .portrætfarmor {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    margin: 0;
+    width: 500px;
+    height: 700px;
+  }
+
+  .maxmara {
+    height: 1500px;
+  }
+  .logomaxmara {
+    width: 600px;
+    margin-left: 700px;
+  }
+  .runway {
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    width: 450px;
+    padding-top: 0;
+  }
+  .citat {
+    width: 500px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 50px;
+  }
+  .swim {
+    width: 700px;
+    padding-top: 0;
+    position: absolute;
+    top: 1000px;
+    right: 50px;
+  }
+  .maxmaratekst {
+    width: 800px;
+    height: 250px;
+    margin-top: 220px;
+    margin-left: 600px;
+    margin-bottom: 90px;
+  }
+  .bag {
+    width: 450px;
+    padding-top: 35px;
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+  }
+  .korttekst {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 300px;
+  }
+
+  .anneqvist {
+    height: 1250px;
+  }
+  .butiksfacade {
+    width: 900px;
+    position: absolute;
+    top: 2250px;
+    left: 600px;
+  }
+  .omostekst {
+    width: 500px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 300px;
+  }
+  .portrætfarmoroglouise {
+    width: 500px;
+    padding-top: 35px;
+    position: absolute;
+    top: 2850px;
+    left: 100px;
+  }
+  .annetekst {
+    width: 800px;
+    height: 550px;
+    margin-top: 550px;
+    margin-left: 650px;
+  }
+
+  .nyhedsbrev {
+    height: 370px;
+  }
+  .nyhedsbrevtekst1 {
+    padding-top: 50px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .nyhedsbrevtekst2 {
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+  }
+  .box {
+    width: 600px;
+    margin-top: 90px;
+  }
+  .box input {
+    width: 400px;
+    padding: 15px;
+    border-style: none;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+  .box button {
+    width: 150px;
+    padding: 15px;
+    border-style: none;
+    background-color: #745549;
+    color: white;
+  }
+
+  .butikken {
+    margin-left: 100px;
+    width: 200px;
+  }
+  .social {
+    width: 50px;
+    padding-top: 35px;
+    position: absolute;
+    top: 4000px;
+    left: 1390px;
+  }
+
+  .face {
+    width: 80px;
+    margin-left: 0;
+  }
+  .insta {
+    width: 80px;
+    margin-right: 0;
+  }
+  .media {
+    font-size: 50px;
+  }
 }
