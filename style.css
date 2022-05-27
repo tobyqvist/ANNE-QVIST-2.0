@@ -274,8 +274,10 @@ h3 {
   body {
   }
   .header {
-    width: 95%;
-    height: 610px;
+    width: 94%;
+    height: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .logo {
     padding-top: 95px;
@@ -292,8 +294,8 @@ h3 {
   }
   .portrætfarmor {
     position: absolute;
-    top: 0;
-    right: 40px;
+    top: 50px;
+    right: 90px;
     margin: 0;
     width: 500px;
     height: 700px;
@@ -304,19 +306,19 @@ h3 {
   }
   .logomaxmara {
     width: 600px;
-    margin-left: 700px;
+    margin-left: 800px;
   }
   .runway {
     position: absolute;
-    top: 400px;
-    left: 130px;
-    width: 450px;
+    top: 490px;
+    left: 170px;
+    width: 500px;
     padding-top: 0;
   }
   .citat {
     width: 500px;
     height: 250px;
-    margin-top: 300px;
+    margin-top: 360px;
     margin-left: 50px;
   }
   .swim {
@@ -324,27 +326,27 @@ h3 {
     padding-top: 0;
     position: absolute;
     top: 1000px;
-    right: 50px;
+    right: 100px;
   }
   .maxmaratekst {
     width: 800px;
     height: 250px;
-    margin-top: 220px;
-    margin-left: 600px;
+    margin-top: 80px;
+    margin-left: 800px;
     margin-bottom: 90px;
   }
   .bag {
     width: 450px;
     padding-top: 35px;
     position: absolute;
-    top: 1500px;
-    left: 100px;
+    top: 1600px;
+    left: 200px;
   }
   .korttekst {
     width: 300px;
     height: 150px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 180px;
+    margin-left: 100px;
     margin-bottom: 300px;
   }
 
@@ -352,30 +354,30 @@ h3 {
     height: 1250px;
   }
   .butiksfacade {
-    width: 900px;
+    width: 1000px;
     position: absolute;
-    top: 2250px;
-    left: 600px;
+    top: 2350px;
+    left: 690px;
   }
   .omostekst {
     width: 500px;
     height: 150px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 300px;
   }
   .portrætfarmoroglouise {
-    width: 500px;
-    padding-top: 35px;
+    width: 650px;
+    padding-top: 135px;
     position: absolute;
-    top: 2850px;
+    top: 2900px;
     left: 100px;
   }
   .annetekst {
-    width: 800px;
+    width: 900px;
     height: 550px;
-    margin-top: 550px;
-    margin-left: 650px;
+    margin-top: 620px;
+    margin-left: 790px;
   }
 
   .nyhedsbrev {
@@ -418,8 +420,8 @@ h3 {
     width: 50px;
     padding-top: 35px;
     position: absolute;
-    top: 4000px;
-    left: 1390px;
+    top: 4100px;
+    left: 1700px;
   }
 
   .face {
