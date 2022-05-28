@@ -93,7 +93,7 @@ p {
 }
 .butiksfacade {
   width: 85%;
-  padding-top: 50px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -351,7 +351,7 @@ h3 {
   }
 
   .anneqvist {
-    height: 1250px;
+    height: 1400px;
   }
   .butiksfacade {
     width: 1000px;
@@ -420,7 +420,7 @@ h3 {
     width: 50px;
     padding-top: 35px;
     position: absolute;
-    top: 4100px;
+    top: 4250px;
     left: 1700px;
   }
 
